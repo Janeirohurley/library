@@ -1,33 +1,41 @@
 .MethodoCOUR{
-   border-radius: 5px;
     width: 700px;
     margin: auto;
-    padding: 0 10px;
+    padding: 10px 0 0 20px;
  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.238),
              -10px -10px 20px rgba(255, 255, 255, 0.245),
              10px 10px 20px rgba(210, 142, 5, 0.4);
-    
+    background: rgba(244, 144, 244, 0.588);
     
 }
 .MethodoCOUR h1{
 
     text-align: center;
+    text-decoration: underline;
 }
-.MethodoCOUR p{
-    color: black;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 14px;
+.MethodoCOUR ul{
+    padding: 10px 0 0 30px;
 }
+
 @media (max-width: 33em) {
     .MethodoCOUR{
-        width: 300px;
+        width: auto;
         margin: auto;
-        padding: 0 10px;
+        padding: 10px 0 0 20px;
         font-size: 13px;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.238),
              -10px -10px 20px rgba(255, 255, 255,0.4),
              10px 10px 20px rgba(210, 142, 5, 0.4);
         
+    }
+    .MethodoCOUR ul{
+        padding: 10px 0 0 30px;
+    }
+}
+@media (max-width: 57.5em ) {
+    .MethodoCOUR{
+        width: auto;
+        margin: auto;
+       
     }
 }
