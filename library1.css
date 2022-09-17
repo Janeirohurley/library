@@ -324,14 +324,25 @@ body{
    transition: all 1s;
 }
    .cont1 header h1{
-      color:#0d0c0d ;
+font-size: 25px;
       margin:  0 0 0 10px;
   }
   .cont2{
-   width: 350px;
+   width: auto;
    margin: 90px auto;
    padding: 0 25px;
    display: block;
+   font-size: auto;
+   word-wrap: break-word;
+}
+.cont2 .bx1 header{
+   width: auto;
+}
+.cont2 .bx2 header{
+   width: auto;
+}
+.cont2 .bx3 header{
+   width: auto;
 }
 .text{
    text-indent: 0;
@@ -339,11 +350,7 @@ body{
 .description{
    align-items: center;
    justify-content: center;
-   display: flex;
-   width: 400px;
-   margin-right: 0;
-   margin: 5px 0;
-   padding: 0 5px;
+   width: auto;
   }
 .description h4{
    width: auto;
@@ -355,6 +362,17 @@ font-size:11.5px;
    }
    .bx4{
     word-wrap: break-word;
+      width: auto;
+      display: block;
+   
+   }
+   .bx4 ol{
+      width: 100%;
+      display: inline-block;
+   }
+   .bx4 ol li{
+      width: 100%;
+      display: inline-block;
    }
    .bx4 ol li .fa{
    font-size: 20px;
@@ -375,7 +393,7 @@ font-size:11.5px;
 .bars{
    display: block;
    position: absolute;
-   right: 60px;
+   right: 10px;
    background: linear-gradient(90deg, rgba(213,154,194,1) 35%, rgba(253,187,45,1) 100%);
    padding:5px 10px;
    border-radius: 5px;
@@ -386,7 +404,9 @@ font-size:11.5px;
    cursor: pointer;
 }
 }
-
+.option{
+   width: auto;
+}
 
 
 
@@ -397,5 +417,23 @@ font-size:11.5px;
    .cont1 header h1{
       color:#ce18ce ;
       margin:  0 0 0 10px;
+      word-wrap: break-word;
+   }
+   .cont2{
+      width: auto;
+      margin: 90px auto;
+      padding: 0 25px;
+      display: block;
+      font-size: auto;
+      word-wrap: break-word;
+   }
+   .cont2 .bx1 header{
+      width: auto;
+   }
+   .cont2 .bx2 header{
+      width: auto;
+   }
+   .cont2 .bx3 header{
+      width: auto;
    }
 }
