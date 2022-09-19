@@ -319,13 +319,14 @@ transition: all 1s;
 
 
 /*=====================media query for responsive*=======================*/
-@media (max-width: 33em) {
+@media(max-width: 33em) {
 body{
    transition: all 1s;
 }
    .cont1 header h1{
 font-size: 25px;
       margin:  0 0 0 10px;
+      word-wrap: break-word;
   }
   .cont2{
    width: auto;
@@ -389,6 +390,13 @@ font-size:11.5px;
  }
  .aute{
    display: block;
+}
+.aute ul{
+   padding: 10px;
+   margin-left: 10px;
+}
+.aute ul li{
+    list-style-type: circle;
 }
 .bars{
    display: block;
